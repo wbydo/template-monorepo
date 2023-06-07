@@ -1,0 +1,20 @@
+{
+  "name": "foo",
+  "description": "",
+  "version": "0.0.0",
+  "author": "",
+  "devDependencies": {
+    "esbuild": "^0.17.19",
+    "esbuild-register": "^3.4.2",
+    "fixpack": "^4.0.0",
+    "npm-check-updates": "^16.10.12"
+  },
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "ncu -u",
+    "start": "node -r esbuild-register src/index.ts"
+  }
+}
