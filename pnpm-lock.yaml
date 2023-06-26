@@ -1,4 +1,4 @@
-lockfileVersion: '6.1'
+lockfileVersion: '6.0'
 
 settings:
   autoInstallPeers: true
@@ -42,8 +42,8 @@ importers:
         specifier: ^29.5.0
         version: 29.5.0(@types/node@20.2.5)
       npm-check-updates:
-        specifier: ^16.10.12
-        version: 16.10.12
+        specifier: ^16.10.13
+        version: 16.10.13
       prettier:
         specifier: ^2.8.8
         version: 2.8.8
@@ -66,8 +66,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       npm-check-updates:
-        specifier: ^16.10.12
-        version: 16.10.12
+        specifier: ^16.10.13
+        version: 16.10.13
 
   packages/foo:
     devDependencies:
@@ -81,8 +81,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       npm-check-updates:
-        specifier: ^16.10.12
-        version: 16.10.12
+        specifier: ^16.10.13
+        version: 16.10.13
 
 packages:
 
@@ -4458,8 +4458,8 @@ packages:
       npm-normalize-package-bin: 3.0.1
     dev: true
 
-  /npm-check-updates@16.10.12:
-    resolution: {integrity: sha512-js/Gg9+5RTyOQZnmFcPswLxf4sK/H5AE/8bl4tkleLJTC1gXhQqqELUFwXqppNvx488aXxN52ZY9k9MSSvEW2A==}
+  /npm-check-updates@16.10.13:
+    resolution: {integrity: sha512-ZsWrtHnaMkcxAaCtDFEr8i7jgM0Bz2AYsnsJlmxISgltG8ie43bWC6G9icxFKfYSLeJJtcj/Yw1Mq5f8GL2F3g==}
     engines: {node: '>=14.14'}
     hasBin: true
     dependencies:
