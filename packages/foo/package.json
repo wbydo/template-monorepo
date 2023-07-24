@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "author": "",
   "devDependencies": {
-    "esbuild": "^0.17.19",
+    "esbuild": "^0.18.16",
     "esbuild-register": "^3.4.2",
     "fixpack": "^4.0.0",
     "npm-check-updates": "^16.10.12"
