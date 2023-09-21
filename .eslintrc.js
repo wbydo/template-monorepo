@@ -24,10 +24,23 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     // "react-hooks"
+    'import',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'import/no-unresolved': 'error',
     // "react-hooks/rules-of-hooks": "error",
     // "react-hooks/exhaustive-deps": "warn"
+  },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      typescript: {
+        alwaysTryTypes: false, // always try to resolve types under `<root>@types` directory even it doesn't contain any source code, like `@types/unist`
+        project: ['./tsconfig.json', './packages/*/tsconfig.json'],
+      },
+    },
   },
 };

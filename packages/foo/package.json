@@ -4,16 +4,17 @@
   "version": "0.0.0",
   "author": "",
   "devDependencies": {
-    "esbuild": "^0.17.19",
-    "esbuild-register": "^3.4.2",
     "fixpack": "^4.0.0",
-    "npm-check-updates": "^16.10.12"
+    "npm-check-updates": "^16.10.12",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2"
   },
   "main": "index.js",
   "private": true,
   "scripts": {
     "fixpack": "fixpack",
-    "start": "node -r esbuild-register src/index.ts",
+    "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
     "update": "ncu -u"
   }
