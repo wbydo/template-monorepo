@@ -1,0 +1,14 @@
+{
+  "name": "@~/tsconfig",
+  "description": "",
+  "version": "0.0.0",
+  "author": "",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "private": true,
+  "scripts": {
+    "fixpack": "fixpack",
+    "update": "ncu -u"
+  }
+}

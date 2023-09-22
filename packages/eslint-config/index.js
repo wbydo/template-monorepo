@@ -17,17 +17,24 @@ module.exports = {
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2018,
+    ecmaVersion: 2022,
     sourceType: 'module',
-    project: './tsconfig.json',
   },
   plugins: [
     '@typescript-eslint',
     // "react-hooks"
+    'import',
   ],
   rules: {
     '@typescript-eslint/explicit-function-return-type': 'off',
+    'import/no-unresolved': 'error',
     // "react-hooks/rules-of-hooks": "error",
     // "react-hooks/exhaustive-deps": "warn"
   },
+  settings: {
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+  },
+  ignorePatterns: ['./eslintrc.js'],
 };
