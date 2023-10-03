@@ -1,0 +1,17 @@
+{
+  "name": "@~/prettier-config",
+  "description": "",
+  "version": "0.0.0",
+  "author": "",
+  "devDependencies": {
+    "fixpack": "^4.0.0",
+    "npm-check-updates": "^16.14.4",
+    "prettier": "^3.0.3"
+  },
+  "main": "./index.js",
+  "private": true,
+  "scripts": {
+    "fixpack": "fixpack",
+    "update": "ncu -u"
+  }
+}
