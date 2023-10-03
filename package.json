@@ -4,13 +4,10 @@
   "version": "0.0.0",
   "author": "wbydo",
   "devDependencies": {
-    "@~/eslint-config": "workspace:^",
-    "@~/tsconfig": "workspace:^",
     "fixpack": "^4.0.0",
     "npm-check-updates": "^16.14.4",
     "turbo": "^1.10.14"
   },
-  "main": "index.js",
   "private": true,
   "scripts": {
     "fixpack": "fixpack",
