@@ -5,6 +5,7 @@
   "author": "",
   "devDependencies": {
     "@~/eslint-config": "workspace:^",
+    "@~/prettier-config": "workspace:^",
     "@~/tsconfig": "workspace:^",
     "fixpack": "^4.0.0",
     "npm-check-updates": "^16.10.12",
@@ -12,12 +13,13 @@
     "tsconfig-paths": "^4.2.0",
     "typescript": "^5.2.2"
   },
+  "prettier": "@~/prettier-config",
   "private": true,
   "scripts": {
     "fixpack": "fixpack",
+    "lint": "eslint \"./src/**/*\"",
     "start": "ts-node src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "update": "ncu -u",
-    "lint": "eslint \"./src/**/*\""
+    "update": "ncu -u"
   }
 }

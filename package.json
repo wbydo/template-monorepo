@@ -3,21 +3,21 @@
   "description": "",
   "version": "0.0.0",
   "author": "wbydo",
-  "main": "index.js",
-  "private": true,
-  "scripts": {
-    "lint": "eslint \"./src/*\" \"./packages/**/*.ts\" && prettier --check src",
-    "fixpack": "fixpack",
-    "run:bar": "pnpm -F bar",
-    "run:foo": "pnpm -F foo",
-    "turbo": "turbo",
-    "update": "ncu -u"
-  },
   "devDependencies": {
     "@~/eslint-config": "workspace:^",
     "@~/tsconfig": "workspace:^",
     "fixpack": "^4.0.0",
     "npm-check-updates": "^16.14.4",
     "turbo": "^1.10.14"
+  },
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "fixpack": "fixpack",
+    "lint": "eslint \"./src/*\" \"./packages/**/*.ts\" && prettier --check src",
+    "run:bar": "pnpm -F bar",
+    "run:foo": "pnpm -F foo",
+    "turbo": "turbo",
+    "update": "ncu -u"
   }
 }
